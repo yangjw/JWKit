@@ -12,7 +12,7 @@
 		211279E61C3B620200245F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211279E41C3B620200245F5E /* Main.storyboard */; };
 		211279E81C3B620200245F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211279E71C3B620200245F5E /* Assets.xcassets */; };
 		211279EB1C3B620200245F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211279E91C3B620200245F5E /* LaunchScreen.storyboard */; };
-		211279F41C3B62F600245F5E /* JWDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211279F31C3B62F600245F5E /* JWDate.swift */; };
+		211279F71C3B962800245F5E /* JWDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211279F61C3B962800245F5E /* JWDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		211279E71C3B620200245F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		211279EA1C3B620200245F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		211279EC1C3B620200245F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		211279F31C3B62F600245F5E /* JWDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWDate.swift; sourceTree = "<group>"; };
+		211279F61C3B962800245F5E /* JWDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		211279D41C3B620200245F5E = {
 			isa = PBXGroup;
 			children = (
-				211279F21C3B623D00245F5E /* JWDate */,
+				211279F51C3B962800245F5E /* JWDate */,
 				211279DF1C3B620200245F5E /* JWKitLearn */,
 				211279DE1C3B620200245F5E /* Products */,
 			);
@@ -67,10 +67,10 @@
 			path = JWKitLearn;
 			sourceTree = "<group>";
 		};
-		211279F21C3B623D00245F5E /* JWDate */ = {
+		211279F51C3B962800245F5E /* JWDate */ = {
 			isa = PBXGroup;
 			children = (
-				211279F31C3B62F600245F5E /* JWDate.swift */,
+				211279F61C3B962800245F5E /* JWDate.swift */,
 			);
 			path = JWDate;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				211279E31C3B620200245F5E /* ViewController.swift in Sources */,
-				211279F41C3B62F600245F5E /* JWDate.swift in Sources */,
+				211279F71C3B962800245F5E /* JWDate.swift in Sources */,
 				211279E11C3B620200245F5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
