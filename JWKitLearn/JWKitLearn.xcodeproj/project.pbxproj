@@ -14,6 +14,7 @@
 		211279EB1C3B620200245F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211279E91C3B620200245F5E /* LaunchScreen.storyboard */; };
 		211279FF1C3B974300245F5E /* JWDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211279FE1C3B974300245F5E /* JWDate.swift */; };
 		21127A021C3B981600245F5E /* JWViewZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21127A011C3B981600245F5E /* JWViewZero.swift */; };
+		21127A051C3BA95F00245F5E /* JWColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21127A041C3BA95F00245F5E /* JWColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		211279EC1C3B620200245F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		211279FE1C3B974300245F5E /* JWDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWDate.swift; sourceTree = "<group>"; };
 		21127A011C3B981600245F5E /* JWViewZero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWViewZero.swift; sourceTree = "<group>"; };
+		21127A041C3BA95F00245F5E /* JWColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		211279FC1C3B974300245F5E /* JWKit */ = {
 			isa = PBXGroup;
 			children = (
+				21127A031C3BA8AC00245F5E /* JWColor */,
 				21127A001C3B97FA00245F5E /* JWViewZero */,
 				211279FD1C3B974300245F5E /* JWDate */,
 			);
@@ -93,6 +96,14 @@
 				21127A011C3B981600245F5E /* JWViewZero.swift */,
 			);
 			path = JWViewZero;
+			sourceTree = "<group>";
+		};
+		21127A031C3BA8AC00245F5E /* JWColor */ = {
+			isa = PBXGroup;
+			children = (
+				21127A041C3BA95F00245F5E /* JWColor.swift */,
+			);
+			path = JWColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			files = (
 				211279E31C3B620200245F5E /* ViewController.swift in Sources */,
 				211279FF1C3B974300245F5E /* JWDate.swift in Sources */,
+				21127A051C3BA95F00245F5E /* JWColor.swift in Sources */,
 				211279E11C3B620200245F5E /* AppDelegate.swift in Sources */,
 				21127A021C3B981600245F5E /* JWViewZero.swift in Sources */,
 			);
