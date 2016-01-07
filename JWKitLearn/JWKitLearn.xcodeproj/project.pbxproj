@@ -15,6 +15,10 @@
 		211279FF1C3B974300245F5E /* JWDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211279FE1C3B974300245F5E /* JWDate.swift */; };
 		21127A021C3B981600245F5E /* JWViewZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21127A011C3B981600245F5E /* JWViewZero.swift */; };
 		21127A051C3BA95F00245F5E /* JWColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21127A041C3BA95F00245F5E /* JWColor.swift */; };
+		21E46F951C3CB7FB005E018D /* JWCalendarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E46F941C3CB7FB005E018D /* JWCalendarItem.swift */; };
+		21EF49B01C3DFCE5008DE431 /* JWCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF49AF1C3DFCE5008DE431 /* JWCalendar.swift */; };
+		21EF49B41C3DFD43008DE431 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EF49B31C3DFD43008DE431 /* UIKit.framework */; };
+		21EF49B61C3DFD4F008DE431 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EF49B51C3DFD4F008DE431 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		211279FE1C3B974300245F5E /* JWDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWDate.swift; sourceTree = "<group>"; };
 		21127A011C3B981600245F5E /* JWViewZero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWViewZero.swift; sourceTree = "<group>"; };
 		21127A041C3BA95F00245F5E /* JWColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWColor.swift; sourceTree = "<group>"; };
+		21E46F941C3CB7FB005E018D /* JWCalendarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWCalendarItem.swift; sourceTree = "<group>"; };
+		21EF49AF1C3DFCE5008DE431 /* JWCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWCalendar.swift; sourceTree = "<group>"; };
+		21EF49B31C3DFD43008DE431 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21EF49B51C3DFD4F008DE431 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EF49B61C3DFD4F008DE431 /* Foundation.framework in Frameworks */,
+				21EF49B41C3DFD43008DE431 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +56,8 @@
 			children = (
 				211279FC1C3B974300245F5E /* JWKit */,
 				211279DF1C3B620200245F5E /* JWKitLearn */,
+				21EF49B11C3DFD18008DE431 /* Resources */,
+				21EF49B21C3DFD34008DE431 /* FrameWork */,
 				211279DE1C3B620200245F5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +86,7 @@
 		211279FC1C3B974300245F5E /* JWKit */ = {
 			isa = PBXGroup;
 			children = (
+				21E46F931C3CB7F0005E018D /* JWCalendar */,
 				21127A031C3BA8AC00245F5E /* JWColor */,
 				21127A001C3B97FA00245F5E /* JWViewZero */,
 				211279FD1C3B974300245F5E /* JWDate */,
@@ -104,6 +117,31 @@
 				21127A041C3BA95F00245F5E /* JWColor.swift */,
 			);
 			path = JWColor;
+			sourceTree = "<group>";
+		};
+		21E46F931C3CB7F0005E018D /* JWCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				21E46F941C3CB7FB005E018D /* JWCalendarItem.swift */,
+				21EF49AF1C3DFCE5008DE431 /* JWCalendar.swift */,
+			);
+			path = JWCalendar;
+			sourceTree = "<group>";
+		};
+		21EF49B11C3DFD18008DE431 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		21EF49B21C3DFD34008DE431 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				21EF49B51C3DFD4F008DE431 /* Foundation.framework */,
+				21EF49B31C3DFD43008DE431 /* UIKit.framework */,
+			);
+			path = FrameWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				211279E31C3B620200245F5E /* ViewController.swift in Sources */,
+				21E46F951C3CB7FB005E018D /* JWCalendarItem.swift in Sources */,
+				21EF49B01C3DFCE5008DE431 /* JWCalendar.swift in Sources */,
 				211279FF1C3B974300245F5E /* JWDate.swift in Sources */,
 				21127A051C3BA95F00245F5E /* JWColor.swift in Sources */,
 				211279E11C3B620200245F5E /* AppDelegate.swift in Sources */,
@@ -331,6 +371,7 @@
 				211279F11C3B620200245F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

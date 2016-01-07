@@ -26,7 +26,7 @@ extension NSDate {
     }
 
     /**
-    当月第一周星期几
+     当前月的第一天是星期几
     
     - returns: 数字0-6
     */
